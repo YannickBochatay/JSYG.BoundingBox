@@ -2,7 +2,7 @@
     "name": "jsyg-boundingbox",
     "authors" : ["Yannick Bochatay"],
     "description" : "Bounding Box plugin for JSYG framework",
-    "main": ["JSYG.BoundingBox.js","JSYG.BoundingBox.css"],
+    "main": "JSYG.BoundingBox.js",
     "moduleType": [
         "amd",
         "globals"

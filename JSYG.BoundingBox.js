@@ -3,7 +3,10 @@
 
 (function(factory) {
     
-    if (typeof define != "undefined" && define.amd) define("jsyg-boundingbox",["jsyg","jsyg-path"],factory);
+    if (typeof module == "object" && typeof module.exports == "object") {
+      module.exports = factory( require("jsyg"), require("jsyg-path") );
+    }
+    else if (typeof define != "undefined" && define.amd) define("jsyg-boundingbox",["jsyg","jsyg-path"],factory);
     else if (typeof JSYG != "undefined") {
         if (JSYG.Path) factory(JSYG,JSYG.Path);
         else throw new Error("JSYG.Resizable is needed");
