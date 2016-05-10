@@ -4,6 +4,7 @@
     "description" : "Bounding Box plugin for JSYG framework",
     "main": "JSYG.BoundingBox.js",
     "moduleType": [
+        "node",
         "amd",
         "globals"
     ],
