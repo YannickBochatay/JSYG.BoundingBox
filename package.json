@@ -1,6 +1,6 @@
 {
   "name": "jsyg-boundingbox",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bounding Box plugin for JSYG framework",
   "main": "JSYG.BoundingBox.js",
   "directories": {
@@ -26,10 +26,10 @@
   },
   "homepage": "https://github.com/YannickBochatay/JSYG.BoundingBox#readme",
   "dependencies": {
-    "jsyg": "^0.6.7",
-    "jsyg-path": "^0.1.5"
+    "jsyg": ">0.0.0",
+    "jsyg-path": ">0.0.0"
   },
   "devDependencies": {
-    "jsyg-selection": "^0.1.2"
+    "jsyg-selection": ">0.0.0"
   }
 }
