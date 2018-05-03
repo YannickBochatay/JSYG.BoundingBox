@@ -4,20 +4,11 @@ BoundingBox plugin for JSYG framework
 [demo](http://yannickbochatay.github.io/JSYG.BoundingBox/)
 
 ### Installation
-
-##### with npm
 ```shell
 npm install jsyg-boundingbox
 ```
 
-##### with bower
-```shell
-bower install jsyg-boundingbox
-```
-
-
 ### Usage
-
 Include the css file JSYG.BoundingBox.css.
 
 ##### es6 modules (webpack+babel)
