@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/YannickBochatay/JSYG.BoundingBox#readme",
   "dependencies": {
-    "jsyg": "^1.0.2",
+    "jsyg": "^1.1.0",
     "jsyg-path": "^1.0.0"
   },
   "devDependencies": {
