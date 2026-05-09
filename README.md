@@ -3,6 +3,8 @@ BoundingBox plugin for JSYG framework
 
 [demo](http://yannickbochatay.github.io/JSYG.BoundingBox/)
 
+## ⚠️ Deprecated. Use [@jsyg/boundingbox](https://github.com/YannickBochatay/jsyg-monorepo/tree/main/packages/boundingbox) instead.
+
 ### Installation
 ```shell
 npm install jsyg-boundingbox
